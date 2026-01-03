@@ -9,6 +9,7 @@ from .reasoning import (
     RouterProtocol,
     SkillRegistryProtocol,
 )
+from .runtime import AuthorityProvider, EpistemologyStore, RuntimeExecutor
 from .skills import SkillProtocol
 from .telemetry import TelemetryClientProtocol
 
@@ -25,4 +26,7 @@ __all__ = [
     "TelemetryClientProtocol",
     "LedgerProtocol",
     "AgentRegistryProtocol",
+    "AuthorityProvider",
+    "RuntimeExecutor",
+    "EpistemologyStore",
 ]

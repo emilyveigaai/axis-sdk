@@ -1,6 +1,6 @@
 [project]
 name = "axis-sdk"
-version = "0.3.0"
+version = "0.3.1"
 description = "AXIS SDK - Zero-dependency protocol and type definitions for AXIS agents"
 readme = "README.md"
 license = {text = "MIT"}
